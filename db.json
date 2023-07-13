@@ -1,0 +1,492 @@
+{
+  "swiper-slid-src": [
+    "./image/swiper-1/contentImage-1.jfif",
+    "./image/swiper-1/contentImage-2.jfif",
+    "./image/swiper-1/contentImage-3.jfif"
+  ],
+  "swiper-slid-items": [
+    "Magnetista – proven to attract",
+    "Win the attraction game",
+    "Shop now",
+    "New THE ONE Wonder Lash Mascara",
+    "Perfect look begins with care",
+    "!GET IT",
+    "Get inspired by this season's key trends",
+    "Spring in bloom",
+    "Shop now"
+  ],
+  "What'snew&Bestoffers-src": [
+    "./image/whats-new/contentImage-banner.jfif",
+    "./image/whats-new/item-1.jfif",
+    "./image/whats-new/item-2.jfif",
+    "./image/whats-new/item-3.jfif",
+    "./image/best-offers/contentImage-banner.jfif",
+    "./image/best-offers/item-1.jfif",
+    "./image/best-offers/item-2.jfif",
+    "./image/best-offers/item-3.jfif",
+    "./image/best-offers/item-4.jfif",
+    "./image/contentImage-(midle).jfif",
+    "./image/hair-nail/contentImage-banner.jfif",
+    "./image/hair-nail/item-1.jfif",
+    "./image/hair-nail/item-2.jfif",
+    "./image/hair-nail/item-3.jfif",
+    "./image/beuty-item1.jfif",
+    "./image/beuty-item2.jfif"
+  ],
+  "MainItems": {
+    "whatsnew": [
+      {
+        "toptext": "Love Nature",
+        "maintext": "Calming Micellar Water with Organic Goji Berry & Oat",
+        "price": ["£5.99", "£8.00"]
+      },
+      {
+        "toptext": "Love Nature",
+        "maintext": "Refreshing Toner with Organic Coconut Water & Aloe Vera",
+        "price": ["£6.99", "£9.00"]
+      },
+      {
+        "toptext": "Oriflame",
+        "maintext": "Amare Flower Watch",
+        "price": ["£39.99", ""]
+      }
+    ],
+    "Bestoffers": [
+      {
+        "toptext": "Amber Elixir",
+        "maintext": "Eau de Parfum",
+        "price": ["£5.99", "£8.00"]
+      },
+      {
+        "toptext": "Love Nature",
+        "maintext": "Perfumed Body Cream",
+        "price": ["£5.49", "£12.00"]
+      },
+      {
+        "toptext": "NovAge",
+        "maintext": "Intense Skin Recharge Overnight Mask",
+        "price": ["£23.99", "£36.00"]
+      },
+      {
+        "toptext": "Feet Up",
+        "maintext": "Advanced Rapid Repair Foot Oil-in-Serum",
+        "price": ["£4.99", "£10.50"]
+      }
+    ],
+    "Hair & Nail": [
+      {
+        "toptext": "Wellness by Oriflame",
+        "maintext": "Hair & Nail NutriComplex",
+        "price": ["£17.99", "£20.99"]
+      },
+      {
+        "toptext": "Wellness by Oriflame",
+        "maintext": "Multivitamin & Mineral woman",
+        "price": ["£18.99", ""]
+      },
+      {
+        "toptext": "Wellness by Oriflame",
+        "maintext": "Multivitamin & Mineral man",
+        "price": ["£18.99", ""]
+      }
+    ]
+  },
+  "all-buttons": [
+    "Shop from eCatalogue!",
+    "Shop now",
+    " Try it out ",
+    "Shop now",
+    "Read more",
+    "Read more",
+    "Become a VIP customer",
+    "View all brands",
+    "Discover Beauty by Sweden"
+  ],
+  "Our-top-brands": [
+    "./image/brands/contentImage-1.jfif",
+    "./image/brands/contentImage-2.jfif",
+    "./image/brands/contentImage-3.jfif",
+    "./image/brands/contentImage-4.jfif"
+  ],
+  "standards": [
+    "./image/standards/contentImage-1.jfif",
+    "./image/standards/contentImage-2.jfif",
+    "./image/standards/contentImage-3.jfif",
+    "./image/standards/contentImage-4.jfif",
+    "./image/standards/contentImage-5.jfif",
+    "./image/standards/contentImage-6.jfif"
+  ],
+  "links-after-swiper": [
+    "eCatalogue",
+    "Skin care",
+    "Make-Up",
+    "Fragrance",
+    "Bath & Body",
+    "Hair",
+    "Accessories",
+    "Wellness",
+    "Men",
+    "Kids & Baby"
+  ],
+  "all-banner-titles": {
+    "Bestoffers-banner": "Best offers selection",
+    "midle-banner": "Science in perfect sync with your skin",
+    "Hair & Nail-banner": "Grow strong hair and nails"
+  },
+  "allText": {
+    "midle-text": [
+      {
+        "firstText": "Novage+ is the new level of skin care",
+        "secoundText": "Discover an advanced anti-ageing system thanks to Novage+ launching in the next campaign! Try the superior level of skin care – samples available now."
+      }
+    ],
+    "hair&nail-text": [
+      {
+        "firstText": "Hair & Nail NutriComplex",
+        "secoundText": "Tired of your hair falling out and your nails breaking? All these problems may mean your body is lacking essential nutrients. Replenish them with our Hair & Nail NutriComplex and restore your hair and nails to supreme condition!"
+      }
+    ],
+    "beutyUnder-1-text": [
+      {
+        "firstText": "Feature Editorial",
+        "secoundText": "Top makeup looks to wear this spring"
+      }
+    ],
+    "beutyUnder-2-text": [
+      {
+        "firstText": "Trending",
+        "secoundText": "How to host a zoom makeup party"
+      }
+    ],
+    "vip-shipping-text": [
+      {
+        "icon": "./image/vip-icons/fp_truck.svg",
+        "firstText": "FREE shipping  ",
+        "secoundText": "As a VIP, you always get free delivery on orders over £45."
+      }
+    ],
+    "vip-rewarded-text": [
+      {
+        "icon": "./image/vip-icons/fp_gift.svg",
+        "firstText": "Get rewarded for shopping",
+        "secoundText": "For every purchase, you’ll earn Beauty Reward Points which can easily be swapped for free products."
+      }
+    ],
+    "vip-advice-text": [
+      {
+        "icon": "./image/vip-icons/fp_beauty_advice.svg",
+        "firstText": "Personal beauty advice",
+        "secoundText": "If you feel like it, just reach out to your own Independent Oriflame Brand Partner who can give you personal beauty advise and recommendations."
+      }
+    ],
+    "different-view-text": [
+      {
+        "firstText": "A different view on beauty",
+        "secoundText": "Because we are from Sweden we have a different – and holistic – view on beauty. It’s not only about how you look, but how you live, feel and act. To us beauty is a way of life: to be healthy, enjoy beautiful skin, express yourself and have fun. That’s beauty by Sweden – our way of helping you live a healthier, more beautiful life."
+      }
+    ],
+    "standards-text": [
+      {
+        "firstText": "The standards we live by",
+        "secoundText": "Since the very beginning, we have always considered nature to be an important part of how we do things and have built our reputation upon offering people safe, reliable products that respect our environment. Our commitment to develop beauty products you can believe in and trust is defined by our product standards."
+      }
+    ]
+  },
+  "footerMnueItems": [
+    "Support / Help",
+    "Support Centre",
+    "Track your order",
+    "Claims & returns",
+    "Corporate Info",
+    "Work With Us",
+    "Who we are",
+    "Sustainability",
+    "Investor Relations",
+    "Oriflame.com ",
+    "EU Declarations of Conformity",
+    "Discover",
+    "Join us",
+    "eCatalogue",
+    "Our apps",
+    "Read more & download"
+  ],
+  "ourAppsIcons": [
+    "./image/footer-icons-img/footer-icon-1.svg",
+    "./image/footer-icons-img/footer-icon-2.svg"
+  ],
+  "mnueAllItems": [
+    "Best Offers",
+    "eCatalogue",
+    "Inspiration",
+    "Skin care",
+    "Make-Up",
+    "Fragrance",
+    "Bath & Body",
+    "Hair",
+    "Accessories",
+    "Wellness",
+    "Men",
+    "Kids & Baby",
+    "Novelties",
+    "Beauty Rewards Programme",
+    "Who we are",
+    "Product Philosophy",
+    "Sustainability",
+    "Support Centre"
+  ],
+  "subMnue-items": {
+    "Skincare": [
+      "Moisturisers",
+      "Day cream",
+      "Night cream",
+      "BB & CC cream",
+      "Serum & Treatment",
+      "Serum & Booster",
+      "Facial oil",
+      "Exfoliator",
+      "Acne & Blemish",
+      "Neck & Décolletage",
+      "Eye & Lip care",
+      "Eye creams",
+      "Lip care",
+      "Cleansers",
+      "Cleanser",
+      "Make-up remover",
+      "Mask",
+      "Sheet masks",
+      "Other masks",
+      "Sun care",
+      "Face sun cream",
+      "Sunscreen",
+      "After sun & Self-tanning",
+      "Skin care tools",
+      "Skin care sets",
+      "Toner essences & Mist",
+      "Brands",
+      "Novage+",
+      "Waunt",
+      "Tender Care",
+      "Optimals",
+      "Love Nature",
+      "Royal Velvet",
+      "All Brands"
+    ],
+    "Make-Up": [
+      "Face",
+      "Foundation",
+      "Concealer & Corrector",
+      "Powder",
+      "Contour & Highlighter",
+      "Blush & Bronzer",
+      "BB & CC cream",
+      "Primer & Setting mist",
+      "Eyes",
+      "Mascara",
+      "Eyeliner",
+      "Eyeshadow",
+      "Eyebrows",
+      "Eye make-up remover",
+      "Lips",
+      "Lipstick",
+      "Lip gloss",
+      "Lip liner",
+      "Lip care",
+      "Nails",
+      "Nail polish",
+      "Base & Topcoat",
+      "Nail care",
+      "Nail polish remover",
+      "Make-up tools",
+      "Brushes & Applicators",
+      "Other make-up tools",
+      "Palettes",
+      "Brands",
+      "THE ONE",
+      "Giordani Gold",
+      "OnColour",
+      "Brands",
+      "THE ONE",
+      "Giordani Gold",
+      "OnColour"
+    ],
+    "Fragrance": [
+      "Women",
+      "Fragrance",
+      "Body care",
+      "Body spray & Deodorant",
+      "Gift set & Purse spray",
+      "Men",
+      "Fragrance",
+      "Body spray & Deodorant",
+      "Brands",
+      "Giordani Gold",
+      "Giordani Man",
+      "All or Nothing",
+      "Possess",
+      "So Fever"
+    ],
+    "Bath & Body": [
+      "Body care",
+      "Body moisturiser",
+      "Hand care",
+      "Foot care",
+      "Anti-cellulite & Toning",
+      "Bath & Shower",
+      "Body wash",
+      "Soap",
+      "Body scrub",
+      "Other bath products",
+      "Bath & Body tools",
+      "Manicure & Pedicure",
+      "Body sponges & Others",
+      "Intimate care",
+      "Oral care",
+      "Suncare",
+      "Hair removal",
+      "Deodorants & Anti-perspirants",
+      "Brands",
+      "The Body Edition",
+      "Sun 360",
+      "Swedish Spa",
+      "Love Nature",
+      "Feet Up"
+    ],
+    "Hair": [
+      "Shampoo",
+      "Conditioner",
+      "Styling products",
+      "Treatments",
+      "Hair mask",
+      "Leave-in treatments",
+      "Hair oil",
+      "Hair tools & Accessories",
+      "Hair brushes & Combs",
+      "Hair accessories",
+      "Brands",
+      "DUOLOGI",
+      "Eleo",
+      "HairX StyleSmart",
+      "Beautanicals",
+      "Milk & Honey Gold"
+    ],
+    "Accessories": [
+      "Jewellery",
+      "Earrings",
+      "Necklaces",
+      "Watches & Others",
+      "Fashion accessories",
+      "Bags & Purses",
+      "Sunglasses",
+      "Others",
+      "Gifts",
+      "Gifts for her",
+      "Gifts for him",
+      "Brands",
+      "Norrsken"
+    ],
+    "Wellness": [
+      "Supplements & Nutrition",
+      "Shakes",
+      "Soups",
+      "Vitamins & Minerals",
+      "Antioxidants",
+      "Omega 3",
+      "Gut health",
+      "Skin & Hair",
+      "Kids",
+      "Full solutions",
+      "Accessories",
+      "Brands",
+      "Wellness by Oriflame"
+    ],
+    "Men": [
+      "Skin care",
+      "Cleanser",
+      "Moisturiser & Treatments",
+      "Shaving & Grooming",
+      "Shaving",
+      "Body & Shower",
+      "Shower gel",
+      "Soap bar",
+      "Hair",
+      "Shampoo",
+      "Accessories",
+      "Shaving & Grooming",
+      "Gifts for him",
+      "Fragrance",
+      "Wellness",
+      "Deodorants & Anti-perspirants",
+      "Brands",
+      "Giordani Man",
+      "North for Men",
+      "Debonair",
+      "Glacier"
+    ],
+    "Kids & Baby": [
+      "Kids",
+      "Hair & Body wash",
+      "Oral care",
+      "Accessories & Tools",
+      "Baby",
+      "Hair & Body wash",
+      "Body care",
+      "Brands",
+      "Baby O",
+      "Love Nature"
+    ]
+  },
+  "mnue-low-size-titles": {
+    "Skincare": [
+      "Moisturisers",
+      "Serum & Treatment",
+      "Eye & Lip care",
+      "Cleanser",
+      "Mask",
+      "Sun care",
+      "Skin care tools",
+      "Skin care sets",
+      "Toner essences & Mist",
+      "Brands"
+    ],
+    "Make-Up": ["Face", "Eyes", "Lips", "Nails", "Palettes", "Brands"],
+    "Fragrance": ["Women", "Men", "Brands"],
+    "Bath & Body": [
+      "Body care",
+      "Bath & Shower",
+      "Bath & Body tools",
+      "Intimate care",
+      "Oral care",
+      "Suncare",
+      "Hair removal",
+      "Deodorants & Anti-perspirants",
+      "Brands"
+    ],
+    "Hair": [
+      "Shampoo",
+      "Conditioner",
+      "Styling products",
+      "Treatments",
+      "Hair tools & Accessories",
+      "Brands"
+    ],
+    "Accessories": ["Jewellery", "Fashion accessories", "Gifts", "Brands"],
+    "Wellness": [
+      "Supplements & Nutrition",
+      "Full solutions",
+      "Accessories",
+      "Brands"
+    ],
+    "Men": [
+      "Skin care",
+      "Shaving & Grooming",
+      "Body & Shower",
+      "Hair",
+      "Accessories",
+      "Fragrance",
+      "Wellness",
+      "Deodorants & Anti-perspirants",
+      "Brands"
+    ],
+    "Kids & Baby": ["Kids", "Baby", "Brands"]
+  }
+}
