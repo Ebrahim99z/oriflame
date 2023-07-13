@@ -1,0 +1,253 @@
+div.whats-new{
+    box-sizing: content-box;
+    position: relative;
+    display: grid;
+    gap: 30px 15px;
+    grid-template-areas: 
+    "title title"
+    "banner products "
+    ;
+    grid-template-columns: 9fr 11fr;
+    justify-content: center;
+    justify-items: center;
+    max-width: 1346px;
+    height: fit-content;
+    margin-right: 20px;
+    margin-left: 0;
+    margin-bottom: 100px;
+}
+
+div.whats-new>div.title{
+    grid-area: title / title ;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: rgb(51, 51, 51);
+    line-height: 1.167;
+}
+
+div.whats-new>a.view-all{
+    grid-area: title-start / products-start;
+    justify-self: end;
+    padding: 12px 23px;
+    height: 45px;
+    border-radius: 25px;
+    border:1px solid rgb(51, 51, 51) ;
+    text-decoration: none;
+    color:  rgb(51, 51, 51);
+    font-size: 13.5px;
+    line-height: 21px;
+    text-transform: uppercase;
+    font-weight:bold;
+    transition: background-color 250ms;
+}
+
+div.whats-new>a.view-all:hover{
+    background-color: #3d3d3d0e;
+}
+
+div.whats-new>div.banner{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 5px 5px 0px;
+}
+
+div.whats-new>div.banner>a>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div.whats-new>div.banner>a>div.text-hover{
+    position: absolute;
+    bottom: 8%;
+    width: 100%;
+    height: 117.5px;
+    padding: 30px 95px;
+    text-align: center;
+}
+
+div.whats-new>div.banner>a>div.text-hover>button{
+    height: 73px;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 25PX;
+    text-transform: uppercase;
+    font-size: 14.5px;
+    letter-spacing: 0.3px;
+    line-height: 1.7;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(30px);
+    background-color: rgba(0, 0, 0, 0.086);
+    transition: color 250ms ease 0s, background 250ms ease 0s, box-shadow 250ms ease 0s;
+}
+
+div.whats-new>div.banner>a>div.text-hover>button:hover{
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.086);
+}
+
+div.whats-new>ul{
+    width: 100%;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+}
+
+div.whats-new>ul>li>a{
+    display: flex;
+    flex-direction: column;
+    color: rgb(85, 85, 85);
+    text-decoration: none;
+}
+
+div.whats-new>ul>li>a>div.image{
+    position: relative;
+    overflow: hidden;
+    background: rgb(245, 245, 245);
+    border-radius:5px 5px 0px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+div.whats-new>ul>li>a>div.image>img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: 600ms;}
+div.whats-new>ul>li>a:hover>div.image>img{transform: scale(1.1);}
+
+div.whats-new>ul>li>a>div.image>div.tag{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 25px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    line-height: 1.4;
+    font-weight: bold;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(99, 102, 106);  
+}
+
+div.whats-new>ul>li:nth-of-type(3)>a>div.image>div.tag{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgb(104, 91, 199);
+}
+
+div.whats-new>ul>li:nth-of-type(3)>a>div.image>div.tag>svg{
+    flex-shrink:0 ;
+}
+
+div.whats-new>ul>li>a>div.image>div.shop-icon{
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    width:45px;
+    height: 55px;   
+}
+
+div.whats-new>ul>li>a>div.image>div.shop-icon>div{
+    text-align: center;
+    padding-top: 7.5px;
+    width:45px;
+    height: 45px;
+    margin-top: 10px;
+    overflow: hidden;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    fill: rgb(119, 119, 119);
+    box-shadow: 0px 2px 4.5px rgba(24, 24, 24, 0.24);
+}
+
+div.whats-new>ul>li>a>div.image>div.shop-icon>div:hover>svg:nth-of-type(1){
+    display: none;
+}
+
+div.whats-new>ul>li>a>div.text-under-image{
+    width: 100%;
+    height: 20px;
+    border-radius: 0px 0px 5px 5px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    color: black;
+    text-transform: uppercase;
+}
+
+div.whats-new>ul>li>a>div.top-text{
+    width: 100%;
+    height: 15px;
+    margin: 10px 0px;
+    color: rgb(85, 85, 85);
+    font-size: 10px;
+    letter-spacing: 2px;
+    line-height: 15px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+div.whats-new>ul>li>a>div.main-text{
+    width: 100%;
+    height: 38px;
+    margin-bottom: 10px;
+    color: rgb(85, 85, 85);
+    line-height: 19px;
+    font-size: 14px;
+    overflow: hidden;
+    text-align: left;
+}
+
+div.whats-new>ul>li>a>div.price{
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    height: 21px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+div.whats-new>ul>li>a>div.price>div:nth-of-type(2){
+    font-weight: initial;
+    text-decoration: line-through;
+    color: rgb(153, 153, 153);
+}
+
+div.whats-new>ul>li>a>div.rating{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+}
+
+div.whats-new>ul>li>a>div.rating>svg{
+    width: 1em;
+    height: 1em;
+    margin: 0px -4px;
+    flex-shrink: 0 ;
+    fill:rgb(229, 229, 229);
+    font-size: 1.137em;
+}
+
+div.whats-new>ul>li>a>div.rating>svg:first-of-type{
+    margin-left: 0;
+}
+
+div.whats-new>ul>li>a>div.rating>div{
+    font-size: 75%;
+    margin-left: 5px;
+    font-weight: 700;
+    color: rgb(85, 85, 85);
+}

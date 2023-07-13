@@ -1,0 +1,6 @@
+@import url(../0-mobile-css/1-main.css) screen and (max-width:575px);
+@import url(../1-css-sm/1-main.css) screen and (min-width:576px) and (max-width:767px);
+@import url(../2-css-md/1-main.css) screen and (min-width:768px) and (max-width:991px);
+@import url(../3-css-lg/1-main.css) screen and (min-width:992px) and (max-width:1199px);
+@import url(../4-css-xl/1-main.css) screen and (min-width:1200px) and (max-width:1399px);
+@import url(../5-css-xxl/1-main.css) screen and (min-width:1400px);

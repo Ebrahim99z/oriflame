@@ -1,0 +1,286 @@
+div.best-offers {
+  position: relative;
+  justify-items: center;
+  display: grid;
+  grid-template-areas:
+    "title"
+    "banner"
+    "products "
+    "link";
+  grid-template-columns: 1fr;
+  gap:15px;
+  margin: 0px auto 30px;
+  padding: 0px 15px;
+}
+
+div.best-offers > div.cricle {
+  position: absolute;
+  z-index: -1;
+  left: -165px;
+  top: 30px;
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  background: rgb(178, 175, 239);
+  opacity: 0.2;
+}
+
+div.best-offers > div.cricle > div {
+  position: absolute;
+  z-index: -1;
+  right: -136px;
+  top: 0px;
+  width: 392px;
+  height: 392px;
+  border-radius: 50%;
+  background: rgb(178, 175, 239);
+  opacity: 0.2;
+}
+
+div.best-offers > div.title {
+  grid-area: title;
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  line-height: 1.167;
+}
+
+div.best-offers > a.view-all {
+  grid-area: link;
+  padding: 12px 23px;
+  height: 45px;
+  border-radius: 25px;
+  border: 1px solid rgb(51, 51, 51);
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  font-size: 13.5px;
+  line-height: 21px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: background-color 250ms;
+}
+
+div.best-offers > a.view-all:hover {
+  background-color: #3d3d3d0e;
+}
+
+div.best-offers > div.banner {
+  grid-area: banner / banner / banner / banner;
+  position: relative;
+  overflow: hidden;
+  width: 300px;
+  height: 453px;
+  border-radius: 5px;
+}
+div.best-offers > div.banner > a > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*کپی شده*/
+div.best-offers > div.banner > a > div.banner-items {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div.best-offers > div.banner > a > div.banner-items {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+
+div.best-offers > div.banner > a > div.banner-items > button {
+  height: 45px;
+  margin-top: 10px;
+  padding: 10px 30px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-size: 15.05px;
+  letter-spacing: 0.3px;
+  line-height: 1.7;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  backdrop-filter: blur(30px);
+  background-color: rgba(0, 0, 0, 0.25);
+  transition: ease 0s, background 250ms ease 0s, box-shadow 250ms ease 0s;
+}
+
+div.best-offers > div.banner > a > div.banner-items > button:hover {
+  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+/* کپی شده*/
+div.best-offers > ul {
+  grid-area: products;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  gap: 20px 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  list-style: none;
+}
+
+div.best-offers > ul > li > a {
+  display: block;
+  color: rgb(85, 85, 85);
+  text-decoration: none;
+}
+
+div.best-offers > ul > li > a > div.image {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background: rgb(245, 245, 245);
+  border-radius: 5px 5px 0px 0px;
+}
+
+div.best-offers > ul > li > a > div.image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: 600ms;
+}
+
+div.best-offers > ul > li > a:hover > div.image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transform: scale(1.1);
+}
+
+div.best-offers > ul > li > a > div.image > div.shop-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  width: 45px;
+  height: 55px;
+}
+
+div.best-offers > ul > li > a > div.image > div.shop-icon > div {
+  text-align: center;
+  padding-top: 7.5px;
+  width: 45px;
+  height: 45px;
+  margin-top: 10px;
+  overflow: hidden;
+  background: rgb(255, 255, 255);
+  border-radius: 50%;
+  fill: rgb(119, 119, 119);
+  box-shadow: 0px 2px 4.5px rgba(24, 24, 24, 0.24);
+}
+
+div.best-offers
+  > ul
+  > li
+  > a
+  > div.image
+  > div.shop-icon
+  > div:hover
+  > svg:nth-of-type(1) {
+  display: none;
+}
+
+div.best-offers > ul > li > a > div.text-under-image {
+  width: 100%;
+  height: 20px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  font-size: 10px;
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+}
+
+div.best-offers > ul > li > a > div.top-text {
+  width: 100%;
+  height: 15px;
+  margin: 10px 0px;
+  color: rgb(85, 85, 85);
+  font-size: 10px;
+  letter-spacing: 2px;
+  line-height: 15px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+div.best-offers > ul > li > a > div.main-text {
+  width: 100%;
+  height: 38px;
+  margin-bottom: 10px;
+  color: rgb(85, 85, 85);
+  line-height: 19px;
+  font-size: 14px;
+  overflow: hidden;
+  text-align: left;
+}
+
+div.best-offers > ul > li > a > div.price {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  height: 21px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+div.best-offers > ul > li > a > div.price > div:nth-of-type(2) {
+  font-weight: initial;
+  text-decoration: line-through;
+  color: rgb(153, 153, 153);
+}
+
+div.best-offers > ul > li > a > div.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
+
+div.best-offers > ul > li > a > div.rating > svg {
+  width: 1em;
+  height: 1em;
+  margin: 0px -4px;
+  flex-shrink: 0;
+  fill: rgb(128, 205, 208);
+  font-size: 1.137em;
+}
+
+div.best-offers > ul > li > a > div.rating > div.svg-half {
+  position: relative;
+  width: 1em;
+  height: 1em;
+  margin: 0px -4px;
+  flex-shrink: 0;
+  fill: rgb(128, 205, 208);
+  font-size: 1.137em;
+}
+
+div.best-offers > ul > li > a > div.rating > div.svg-half > svg:nth-of-type(2) {
+  position: absolute;
+  width: 1em;
+  height: 1em;
+  top: 0;
+  right: 0;
+  clip-path: inset(0 0 0 53%);
+  fill: rgb(229, 229, 229);
+}
+
+div.best-offers > ul > li > a > div.rating > svg:first-of-type {
+  margin-left: 0;
+}
+
+div.best-offers > ul > li > a > div.rating > div {
+  font-size: 75%;
+  margin-left: 5px;
+  font-weight: 700;
+  color: rgb(85, 85, 85);
+}

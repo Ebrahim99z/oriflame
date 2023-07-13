@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, SansCondensedOri, SansCondensedOriFallback, SansOri,
+    SansOriFallback;
+}
+/*media display none for html on other sizes*/
+footer
+  > nav.footer-menu
+  > div.main-menu
+  > .menuItems
+  > .linksContents
+  > ul
+  > li
+  > svg {
+  display: none;
+}
+footer > nav.footer-menu > div.main-menu > .sups {
+  display: none;
+}
+.top-nav {
+  --top-nav-height-animation: 0.3s ease-in-out;
+  --top-nav-height: 56px;
+}
+.top-nav--is-shrunk {
+  --top-nav-height: 56px;
+}
